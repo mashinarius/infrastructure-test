@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+    infra-srv:
+        image: infra-image
+        container_name: "infra-app"
+        restart: always
+
+        logging:
+          driver: json-file
+          options:
+              max-size: "10m"
+              max-file: "5"
+
+        environment:
+            - APP_SLEEP=10
