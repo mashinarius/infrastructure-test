@@ -9,6 +9,10 @@ try {
         checkout scm
     }
 
+    stage('prepare') {
+        sh "chmod +x ./gradlew"
+    }
+
     stage('clean') {
         sh "./gradlew clean"
     }
