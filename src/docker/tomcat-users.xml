@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <tomcat-users>
     <role rolename="manager-gui"/>
-    <role rolename="manager-gui"/>
     <role rolename="manager-script"/>
-    <user username="wizard-admin" password="change-me-please-password" roles="manager,manager-gui,manager-script" />
+    <user username="wizardadmin" password="change-me-please-password" roles="standart,manager,manager-gui,manager-script" />
 </tomcat-users>
