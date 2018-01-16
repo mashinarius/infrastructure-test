@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.mashinarius.mock.demo;
 
 public class Greeting {
 

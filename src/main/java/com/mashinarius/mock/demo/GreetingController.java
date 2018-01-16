@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.mashinarius.mock.demo;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
